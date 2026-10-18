@@ -1,0 +1,69 @@
+{
+  "target_image": "Foto (1).jpg",
+  "image_dimensions": {
+    "width": 1280,
+    "height": 720
+  },
+  "methods_evaluated": [
+    "cv2.undistort",
+    "cv2.initUndistortRectifyMap + cv2.remap"
+  ],
+  "methods_mean_absolute_difference": 0.028674406828703702,
+  "optimal_camera_matrix_alpha0": [
+    [
+      966.030424679465,
+      0.0,
+      567.8229205693257
+    ],
+    [
+      0.0,
+      965.2374752300846,
+      457.20923701390035
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "optimal_camera_matrix_alpha1": [
+    [
+      886.2573367022189,
+      0.0,
+      539.1331078796392
+    ],
+    [
+      0.0,
+      863.4728853637913,
+      472.15765248892944
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "roi_alpha0": [
+    0,
+    0,
+    1279,
+    719
+  ],
+  "roi_alpha1": [
+    18,
+    63,
+    1173,
+    643
+  ],
+  "analysis": {
+    "alpha_0": "Remove completamente as bordas pretas introduzidas pela desdistorção, com pequeno corte no campo de visão periférico.",
+    "alpha_1": "Preserva todos os pixels do sensor original, gerando bordas curvas pretas nos cantos onde a distorção em almofada/barril foi descomprimida.",
+    "distortion_types_present": "Distorção radial moderada (k1, k2, k3) com leve distorção tangencial (p1, p2)."
+  },
+  "evidence_files": [
+    "imagem_original.png",
+    "imagem_corrigida.png",
+    "imagem_corrigida_alpha1.png",
+    "comparacao_distorcao.png"
+  ]
+}

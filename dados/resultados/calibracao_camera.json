@@ -1,0 +1,138 @@
+{
+  "pattern_size": [
+    7,
+    5
+  ],
+  "square_size": 1.0,
+  "square_unit": "unidades",
+  "image_size": {
+    "width": 1280,
+    "height": 720
+  },
+  "valid_images_count": 16,
+  "rejected_images_count": 0,
+  "valid_images": [
+    "Foto (1).jpg",
+    "Foto (2).jpg",
+    "Foto (3).jpg",
+    "Foto (4).jpg",
+    "Foto (5).jpg",
+    "Foto (6).jpg",
+    "Foto (7).jpg",
+    "Foto (8).jpg",
+    "Foto (9).jpg",
+    "Foto (10).jpg",
+    "Foto (11).jpg",
+    "Foto (12).jpg",
+    "Foto (13).jpg",
+    "Foto (14).jpg",
+    "Foto (15).jpg",
+    "Foto (16).jpg"
+  ],
+  "rejected_images": [],
+  "rms_opencv": 1.038850062164126,
+  "mean_reprojection_error_pixels": 1.038849505679954,
+  "camera_matrix": {
+    "fx": 952.9085252723404,
+    "fy": 955.8886041917207,
+    "cx": 584.9874072975412,
+    "cy": 440.6028053619832,
+    "full_matrix": [
+      [
+        952.9085252723404,
+        0.0,
+        584.9874072975412
+      ],
+      [
+        0.0,
+        955.8886041917207,
+        440.6028053619832
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "distortion_coefficients": {
+    "k1": -0.03417695570146131,
+    "k2": 0.24618511429110834,
+    "p1": 0.024768642700553303,
+    "p2": -0.012414559312743165,
+    "k3": -0.2904752126589048,
+    "full_vector": [
+      -0.03417695570146131,
+      0.24618511429110834,
+      0.024768642700553303,
+      -0.012414559312743165,
+      -0.2904752126589048
+    ]
+  },
+  "per_image_errors": [
+    {
+      "image": "Foto (1).jpg",
+      "rmse_pixels": 0.5793824195861816
+    },
+    {
+      "image": "Foto (2).jpg",
+      "rmse_pixels": 0.3355443775653839
+    },
+    {
+      "image": "Foto (3).jpg",
+      "rmse_pixels": 0.8287774920463562
+    },
+    {
+      "image": "Foto (4).jpg",
+      "rmse_pixels": 0.6345785856246948
+    },
+    {
+      "image": "Foto (5).jpg",
+      "rmse_pixels": 0.7123753428459167
+    },
+    {
+      "image": "Foto (6).jpg",
+      "rmse_pixels": 2.886975049972534
+    },
+    {
+      "image": "Foto (7).jpg",
+      "rmse_pixels": 0.7908296585083008
+    },
+    {
+      "image": "Foto (8).jpg",
+      "rmse_pixels": 0.5005503296852112
+    },
+    {
+      "image": "Foto (9).jpg",
+      "rmse_pixels": 0.7829686999320984
+    },
+    {
+      "image": "Foto (10).jpg",
+      "rmse_pixels": 1.050680160522461
+    },
+    {
+      "image": "Foto (11).jpg",
+      "rmse_pixels": 0.3916782736778259
+    },
+    {
+      "image": "Foto (12).jpg",
+      "rmse_pixels": 1.0806607007980347
+    },
+    {
+      "image": "Foto (13).jpg",
+      "rmse_pixels": 1.0996426343917847
+    },
+    {
+      "image": "Foto (14).jpg",
+      "rmse_pixels": 0.7647147178649902
+    },
+    {
+      "image": "Foto (15).jpg",
+      "rmse_pixels": 0.41020816564559937
+    },
+    {
+      "image": "Foto (16).jpg",
+      "rmse_pixels": 1.0054597854614258
+    }
+  ]
+}

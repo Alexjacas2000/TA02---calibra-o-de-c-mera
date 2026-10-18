@@ -1,0 +1,70 @@
+{
+  "target_image": "Foto (1).jpg",
+  "validation_method": "Comparação entre pontos 3D conhecidos do tabuleiro projetados via cv2.projectPoints e observações 2D reais subpixel detectadas pelo cv2.findChessboardCorners/cornerSubPix",
+  "real_points_count": 35,
+  "metrics": {
+    "mean_euclidean_error_pixels": 0.5205290913581848,
+    "std_euclidean_error_pixels": 0.25442779064178467,
+    "max_euclidean_error_pixels": 1.2018719911575317,
+    "min_euclidean_error_pixels": 0.09840624034404755
+  },
+  "synthetic_elements_rendered": {
+    "cartesian_axes": {
+      "origin": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "x_axis_end": [
+        3.0,
+        0.0,
+        0.0
+      ],
+      "y_axis_end": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "z_axis_end": [
+        0.0,
+        0.0,
+        -3.0
+      ]
+    },
+    "cube_3d": {
+      "dimensions": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "vertices_count": 8
+    }
+  },
+  "camera_extrinsic_vectors": {
+    "rotation_vector_rvec": [
+      [
+        0.04716124587132564
+      ],
+      [
+        -0.07829568396040347
+      ],
+      [
+        -0.02831200118675133
+      ]
+    ],
+    "translation_vector_tvec": [
+      [
+        -1.6132057284420165
+      ],
+      [
+        -3.3716608259257503
+      ],
+      [
+        17.727674367212074
+      ]
+    ]
+  },
+  "evidence_files": [
+    "projecao_3d.png"
+  ]
+}
